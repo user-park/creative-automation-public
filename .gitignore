@@ -1,7 +1,9 @@
 .env
 credentials/
 logs/
-outputs/
+outputs/*
+!outputs/images/
+!outputs/images/.gitkeep
 
 __pycache__/
 *.pyc
